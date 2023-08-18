@@ -1,0 +1,15 @@
+nome_usuario = input('Qual o seu nome?')
+idade_usuario = input('Qual a sua idade?')
+# num_1 = int(input('Digite um número:'))
+# num_2 = int(input('Digite um número:'))
+
+num_1 = input('Digite um número:')
+num_2 = input('Digite um número:')
+
+int_num_1 = int(num_1)
+int_num_2 = int(num_2)
+# print('Oi,', nome_usuario)
+print(f'Oi, {nome_usuario}')
+print(f'Sua idade é {idade_usuario}')
+# print(f'A soma é {num_1 + num_2}')
+print(f'A soma é {int_num_1 + int_num_2}')
