@@ -24,7 +24,7 @@ contrário disso:
 O primeiro dígito do CPF é 7
 """
 cpf = '74682489070'
-primeiro_digito = 0
+resultado_digito_1 = 0
 nove_digitos = cpf[:9]
 # print(nove_digitos) # 746824890
 
@@ -49,8 +49,8 @@ for num in nove_digitos:
 resultado = (somatorio * 10) % 11 # 7
 
 if resultado > 9:
-    primeiro_digito = 0
+    resultado_digito_1 = 0
 else:
-    primeiro_digito = resultado
+    resultado_digito_1 = resultado
 
-print(primeiro_digito) # 7
+print(resultado_digito_1) # 7
